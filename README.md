@@ -22,11 +22,12 @@ intéressant)
 # 2 Contraintes techniques
 Le programme doit être un projet Maven en JAVA.
 Le projet doit être accompagné de tests unitaires.
- 3 Format des entrées
+
+# 3 Format des entrées
 Les entrées sont présentées sous la forme d'un contenu textuel.
 Chaque caractère peut prendre la valeur “M” ou “ “.
 
-# 3.1 Exemple
+## 3.1 Exemple
  
 MMMMMMM
 M M M
@@ -34,13 +35,13 @@ M M M
 M M M
 MMMMMMM
 
- 4 Format des sorties
+# 4 Format des sorties
 Les sorties sont présentées sous la forme d'un contenu textuel.
 Le texte représente la suite des coordonnées du personnage à travers le labyrinthe.
 Sa position initiale est aléatoire, par exemple [2, 2] (ligne 3, colonne 3)
 Chaque position occupera une nouvelle ligne dans le format de sortie.
 
-# 4.1 Exemple
+## 4.1 Exemple
 Pour l'exemple d'entrée cité en point 3.1 un parcours possible serait :
 0 1 2 3 4 5 6
 0 M M M M M M M
